@@ -1,0 +1,47 @@
+body {
+}
+
+.qs-fullsheet {
+    width: 8.5in;
+    height: 11in;
+}
+
+.qs-sheet {
+    box-sizing: border-box;
+    border: solid black 1px;
+    display: inline-block;
+    margin: 0 auto;
+    width: 4.25in;
+    height: 5.5in;
+    /* border: solid black 1px;*/
+}
+
+.qs-content {
+    font-size: 0.75em;
+    margin: 2em;
+    padding: 1em;
+    /* border: solid black 1px; */
+}
+
+.qs-content > h1, .qs-content > h2 {
+    font-family: Montserrat, sans-serif;
+    margin: 0 auto;
+}
+
+.qs-content > h1 {
+    padding-bottom: 5px;
+    border-bottom: solid black 3px;
+}
+
+.qs-content > p, .qs-content > .qs-footer {
+    text-align: justify;
+    font-family: Roboto Slab, serif;
+}
+
+#quartersheet1 {
+    float: right;
+}
+
+#quartersheet3 {
+    float: right;
+}
